@@ -51,8 +51,7 @@ Mix.listen('init', () => {
                 '://' +
                 Config.hmrOptions.host +
                 ':' +
-                Config.hmrOptions.port +
-                '/'
+                Config.hmrOptions.port
         );
     }
 });
